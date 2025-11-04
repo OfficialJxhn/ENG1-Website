@@ -1,3 +1,59 @@
-h1 {
-    color: green;
+/* Sets a professional font and removes default margins */
+body {
+  background-color: #d97d55; /* Original background color */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  color: #f4e9d7; /* Default text color */
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #b8c4a9; /* Use subtitle color for a separator */
+}
+
+h1#title {
+  color: #f4e9d7; /* Original h1 color */
+  margin: 0; /* Remove default margin */
+}
+
+/* Main content wrapper */
+main {
+  max-width: 800px; /* Stops content from being too wide */
+  margin: 0 auto; /* Centers the content block */
+}
+
+/* Styles for each link section */
+.link-section {
+  margin-bottom: 25px; /* Adds space between each section */
+}
+
+h2.subtitle {
+  color: #b8c4a9; /* Original subtitle color */
+  margin-top: 0;
+  margin-bottom: 10px; /* Space between title and link */
+  font-size: 1.2rem;
+}
+
+/* Link styling */
+a {
+  display: block; /* Makes the whole area clickable */
+  background-color: #f4e9d7; /* Use light color for link background */
+  color: #d97d55; /* Use main background color for link text */
+  padding: 15px 20px;
+  text-decoration: none; /* Removes the underline */
+  font-weight: bold;
+  border-radius: 8px; /* Rounded corners */
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+/* Hover effect for links */
+a:hover {
+  background-color: #ffffff; /* Brighten on hover */
+  transform: translateY(-2px); /* Slight "lift" effect */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
